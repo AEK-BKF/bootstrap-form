@@ -989,7 +989,7 @@ class BootstrapForm
      */
     public function getErrorClass()
     {
-        return $this->errorClass ?: $this->config->get('bootstrap_form.error_class', 'has_error');
+        return $this->errorClass ?: $this->config->get('bootstrap_form.error_class', 'has-error');
     }
 
     /**
